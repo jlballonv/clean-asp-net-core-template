@@ -16,7 +16,7 @@ namespace WebApplication2
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
-                .Build();
+                .Build();//
 
             host.Run();
         }
